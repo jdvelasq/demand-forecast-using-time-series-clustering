@@ -4,6 +4,10 @@ import numpy as np
 import pickle
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def load_model_cluster(name_cluster, dir_model_train, transform='decompose-Fourier'):
     n_cluster = [name_cluster]

@@ -9,6 +9,10 @@ import pickle
 import time
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def save_cluster_model_comp_pca(model_cluster, op_red, type_day, date_init, date_fin):
 

@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import warnings
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def matrix_features(pv_data, num_arm=60, var_standar_z=True, features=('fourier', 'time')):
     df_time_features = get_time_features(pv_data)

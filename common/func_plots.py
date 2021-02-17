@@ -5,6 +5,10 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def get_plot_pca(ev):
     (figure, ax) = plt.subplots(figsize=(10, 6))

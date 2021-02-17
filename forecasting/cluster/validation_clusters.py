@@ -1,5 +1,9 @@
 import pandas as pd
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def conditions_to_reduce(s_data, dem_total_mean, threshold_dem):
     n_null = s_data.tail(48).isna().sum()

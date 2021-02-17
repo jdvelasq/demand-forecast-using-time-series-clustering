@@ -7,6 +7,10 @@ import numpy as np
 import pickle
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def save_model_dir(pipeline, transform, num_cluster, op_red, type_day, type_model, date_init, date_fin
                    , periods_decompose=(), n_decompose='', type_decompose='additive'):

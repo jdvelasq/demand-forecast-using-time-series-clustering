@@ -1,3 +1,8 @@
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
+
 def k_optimal(df_k):
     if df_k['k_opt'].unique().shape[0] != 1:
         if df_k['k_opt'].mode().values[0] == 2:

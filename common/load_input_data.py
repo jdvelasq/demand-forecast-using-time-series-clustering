@@ -4,6 +4,10 @@ import warnings
 import glob
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def get_dir_main():
     abspath = os.path.abspath(__file__)
@@ -60,5 +64,5 @@ def get_data(directory_input_data, op_red, date_init, date_fin):
 
 if __name__ == '__main__':
     dir_input_data = os.sep.join([get_dir_main(), 'data', 'input'])
-    data_OR = get_data(dir_input_data, 'EPMD', '2017-01-01', '2020-07-31')
+    data_OR = get_data(dir_input_data, 'ORD1', '2017-01-01', '2020-07-31')
     data_OR.to_csv('data_op_red.csv', encoding='ansi', index=False)

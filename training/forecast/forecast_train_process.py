@@ -6,6 +6,10 @@ import time
 import glob
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def train_each_cluster(train, date_init, date_fin, op_red, type_day, transform='decompose-Fourier'
                        , type_decompose='additive', n_decompose=1, n_coeff_fourier=4):

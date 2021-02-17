@@ -7,6 +7,10 @@ import glob
 import time
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def get_data_train(date_train_init, date_update_fin):
     dir_train = os.sep.join([get_dir_main(), 'forecasting', 'cluster', 'results', date_train_init + '_' + date_update_fin])

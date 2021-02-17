@@ -11,6 +11,11 @@ import numpy as np
 import math
 
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
+
 def round_down_to_even(f):
     return math.floor(f / 2.) * 2
 

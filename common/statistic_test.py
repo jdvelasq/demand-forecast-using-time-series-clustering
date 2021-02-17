@@ -1,6 +1,10 @@
 from factor_analyzer.factor_analyzer import calculate_bartlett_sphericity, calculate_kmo
 import numpy as np
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def stat_test(mat_features):
     m_corr = np.array(mat_features.corr())

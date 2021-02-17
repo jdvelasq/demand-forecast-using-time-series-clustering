@@ -5,6 +5,10 @@ from common.load_input_data import get_dir_main
 import time
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def train_process(ops_red, types_days, directory_input_data, date_init, date_fin, transform, num_decompose=(1, 4)
                   , num_coeff_fourier=(13, 5), type_decompose='additive'):

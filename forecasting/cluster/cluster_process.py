@@ -8,6 +8,10 @@ import pickle
 import glob
 import os
 
+__author__ = "Jose Fernando Montoya Cardona"
+__credits__ = ["Jose Fernando Montoya Cardona"]
+__email__ = "jomontoyac@unal.edu.co"
+
 
 def save_result_cluster(m_dem_reduce_cluster, op_red, type_day, date_init, date_fin, is_train):
     if is_train:
